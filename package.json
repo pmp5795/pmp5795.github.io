@@ -1,5 +1,5 @@
 {
-    "name": "keshavdimonds",
+    "name": "pmp5795.github.io",
     "version": "1.0.0",
     "scripts": {
         "start": "webpack-dev-server --mode development --open"
