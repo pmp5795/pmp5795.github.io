@@ -23,7 +23,7 @@
     { "id": 91, "name": "Bags & Wallet", "hasSubCategory": false, "parentId": 80 },
     { "id": 92, "name": "Sunglasses", "hasSubCategory": false, "parentId": 80 },
     { "id": 93, "name": "Belts & Hats", "hasSubCategory": false, "parentId": 80 },
-    { "id": 100, "name": "Electronics", "hasSubCategory": false, "parentId": 0 },
+    { "id": 100, "name": "Jewellery", "hasSubCategory": false, "parentId": 0 },
     { "id": 150, "name": "Jewellery", "hasSubCategory": false, "parentId": 0 },    
     { "id": 200, "name": "Sports", "hasSubCategory": false, "parentId": 0 },
     { "id": 250, "name": "Motors", "hasSubCategory": false, "parentId": 0 }
