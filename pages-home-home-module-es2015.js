@@ -18,7 +18,7 @@ module.exports = "<app-main-carousel [slides]=\"slides\"></app-main-carousel> \r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".products-tabs {\n  margin-top: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUvRDpcXENhcHN0b24tUHJvamVjdFxcS2VzaGF2RGlhbW9uZHNcXHNyY1xcYXBwXFxwYWdlcy9ob21lXFxob21lLmNvbXBvbmVudC5zY3NzIiwiaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0JBQUE7QUNDSiIsImZpbGUiOiJob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZHVjdHMtdGFic3tcclxuICAgIG1hcmdpbi10b3A6IDMwcHg7ICAgXHJcbn0iLCIucHJvZHVjdHMtdGFicyB7XG4gIG1hcmdpbi10b3A6IDMwcHg7XG59Il19 */"
+module.exports = ".products-tabs {\n  margin-top: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9EOlxcQ2Fwc3Rvbi1Qcm9qZWN0XFxLZXNoYXZEaWFtb25kcy9zcmNcXGFwcFxccGFnZXNcXGhvbWVcXGhvbWUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGdCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZHVjdHMtdGFic3tcclxuICAgIG1hcmdpbi10b3A6IDMwcHg7ICAgXHJcbn0iLCIucHJvZHVjdHMtdGFicyB7XG4gIG1hcmdpbi10b3A6IDMwcHg7XG59Il19 */"
 
 /***/ }),
 

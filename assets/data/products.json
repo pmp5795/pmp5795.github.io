@@ -124,5 +124,26 @@
         "cartCount": 0,
         "weight": 9750,
         "categoryId": 100
+    },
+    { 
+        "id": 7,
+        "name": "Emerald Yellow stone Earring",
+        "images": [
+            {
+                "small": "assets/images/products/bracelet/1-small.png",
+                "medium": "assets/images/products/bracelet/1-medium.png",
+                "big": "assets/images/products/bracelet/1-big.png"
+            }
+        ],
+        "oldPrice": null,
+        "newPrice": 450,
+        "discount": null,
+        "ratingsCount": 4,
+        "ratingsValue": 300,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+        "availibilityCount": 3,
+        "cartCount": 0,
+        "weight": 9750,
+        "categoryId": 100
     }
 ]

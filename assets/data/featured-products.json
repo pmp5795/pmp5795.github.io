@@ -1,7 +1,7 @@
 [    
     { 
         "id": 1,
-        "name": "Keyboard",
+        "name": "Pear Yellow Star Stone",
         "images": [
             {
                 "small": "assets/images/products/keyboard/1-small.png",
@@ -22,37 +22,12 @@
     },
     { 
         "id": 2,
-        "name": "PC All-in-One",
+        "name": "Green Stone Princess cut Ring",
         "images": [
             {
                 "small": "assets/images/products/pc/1-small.png",
                 "medium": "assets/images/products/pc/1-medium.png",
                 "big": "assets/images/products/pc/1-big.png"
-            },
-            {
-                "small": "assets/images/products/pc/2-small.png",
-                "medium": "assets/images/products/pc/2-medium.png",
-                "big": "assets/images/products/pc/2-big.png"
-            },
-            {
-                "small": "assets/images/products/pc/3-small.png",
-                "medium": "assets/images/products/pc/3-medium.png",
-                "big": "assets/images/products/pc/3-big.png"
-            },
-            {
-                "small": "assets/images/products/pc/4-small.png",
-                "medium": "assets/images/products/pc/4-medium.png",
-                "big": "assets/images/products/pc/4-big.png"
-            },
-            {
-                "small": "assets/images/products/pc/5-small.png",
-                "medium": "assets/images/products/pc/5-medium.png",
-                "big": "assets/images/products/pc/5-big.png"
-            },
-            {
-                "small": "assets/images/products/pc/6-small.png",
-                "medium": "assets/images/products/pc/6-medium.png",
-                "big": "assets/images/products/pc/6-big.png"
             }
         ],
         "oldPrice": 2510,
@@ -63,29 +38,17 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
         "availibilityCount": 3,
         "cartCount": 0,
-        "color": ["#1D1D1D","#DADADA","#597087"],
-        "size": ["24''","28''","32''"],
         "weight": 9550,
         "categoryId": 100
     },    
     { 
         "id": 3,
-        "name": "Headset",
+        "name": "Black Oval Earring",
         "images": [
             {
                 "small": "assets/images/products/headset/1-small.png",
                 "medium": "assets/images/products/headset/1-medium.png",
                 "big": "assets/images/products/headset/1-big.png"
-            },
-            {
-                "small": "assets/images/products/headset/2-small.png",
-                "medium": "assets/images/products/headset/2-medium.png",
-                "big": "assets/images/products/headset/2-big.png"
-            },
-            {
-                "small": "assets/images/products/headset/3-small.png",
-                "medium": "assets/images/products/headset/3-medium.png",
-                "big": "assets/images/products/headset/3-big.png"
             }
         ],
         "oldPrice": null,
@@ -96,67 +59,17 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
         "availibilityCount": 5,
         "cartCount": 0,
-        "color": ["#474543","#8B8B8B","#FFFFFF"],
-        "size": ["14","22"],
         "weight": 150,
         "categoryId": 100
     },   
     { 
         "id": 4,
-        "name": "ProBook",
+        "name": "Blue Oval Bracelet",
         "images": [
             {
                 "small": "assets/images/products/probook/1-small.png",
                 "medium": "assets/images/products/probook/1-medium.png",
                 "big": "assets/images/products/probook/1-big.png"
-            },
-            {
-                "small": "assets/images/products/probook/2-small.png",
-                "medium": "assets/images/products/probook/2-medium.png",
-                "big": "assets/images/products/probook/2-big.png"
-            },
-            {
-                "small": "assets/images/products/probook/3-small.png",
-                "medium": "assets/images/products/probook/3-medium.png",
-                "big": "assets/images/products/probook/3-big.png"
-            },
-            {
-                "small": "assets/images/products/probook/4-small.png",
-                "medium": "assets/images/products/probook/4-medium.png",
-                "big": "assets/images/products/probook/4-big.png"
-            },
-            {
-                "small": "assets/images/products/probook/5-small.png",
-                "medium": "assets/images/products/probook/5-medium.png",
-                "big": "assets/images/products/probook/5-big.png"
-            }
-        ],
-        "oldPrice": 1655,
-        "newPrice": 1379.99,
-        "discount": 20,
-        "ratingsCount": 6,
-        "ratingsValue": 500,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
-        "availibilityCount": 2,
-        "cartCount": 0,
-        "color": ["#4C4C4C","#B6B7B9"],
-        "size": ["13.3''","15.4''","17''"],
-        "weight": 2150,
-        "categoryId": 100
-    },
-    { 
-        "id": 5,
-        "name": "Phone",
-        "images": [
-            {
-                "small": "assets/images/products/phone/1-small.png",
-                "medium": "assets/images/products/phone/1-medium.png",
-                "big": "assets/images/products/phone/1-big.png"
-            },
-            {
-                "small": "assets/images/products/phone/2-small.png",
-                "medium": "assets/images/products/phone/2-medium.png",
-                "big": "assets/images/products/phone/2-big.png"
             }
         ],
         "oldPrice": null,
@@ -167,39 +80,38 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
         "availibilityCount": 0,
         "cartCount": 0,
-        "color": ["#1E1B00","#898E8B"],
-        "size": null,
+        "weight": 3250,
+        "categoryId": 100
+    },
+    { 
+        "id": 5,
+        "name": "Black heart Stone Earring",
+        "images": [
+            {
+                "small": "assets/images/products/phone/1-small.png",
+                "medium": "assets/images/products/phone/1-medium.png",
+                "big": "assets/images/products/phone/1-big.png"
+            }
+        ],
+        "oldPrice": null,
+        "newPrice": 476,
+        "discount": null,
+        "ratingsCount": 2,
+        "ratingsValue": 200,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+        "availibilityCount": 0,
+        "cartCount": 0,
         "weight": 3250,
         "categoryId": 100
     },
     { 
         "id": 6,
-        "name": "All-in-One Printer",
+        "name": "Emerald Yellow stone Earring",
         "images": [
             {
                 "small": "assets/images/products/printer/1-small.png",
                 "medium": "assets/images/products/printer/1-medium.png",
                 "big": "assets/images/products/printer/1-big.png"
-            },
-            {
-                "small": "assets/images/products/printer/2-small.png",
-                "medium": "assets/images/products/printer/2-medium.png",
-                "big": "assets/images/products/printer/2-big.png"
-            },
-            {
-                "small": "assets/images/products/printer/3-small.png",
-                "medium": "assets/images/products/printer/3-medium.png",
-                "big": "assets/images/products/printer/3-big.png"
-            },
-            {
-                "small": "assets/images/products/printer/4-small.png",
-                "medium": "assets/images/products/printer/4-medium.png",
-                "big": "assets/images/products/printer/4-big.png"
-            },
-            {
-                "small": "assets/images/products/printer/5-small.png",
-                "medium": "assets/images/products/printer/5-medium.png",
-                "big": "assets/images/products/printer/5-big.png"
             }
         ],
         "oldPrice": null,
@@ -210,8 +122,27 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
         "availibilityCount": 3,
         "cartCount": 0,
-        "color": ["#464646","#F3F3F3","#E6E6E6"],
-        "size": null,
+        "weight": 9750,
+        "categoryId": 100
+    },
+    { 
+        "id": 7,
+        "name": "Emerald Yellow stone Earring",
+        "images": [
+            {
+                "small": "assets/images/products/bracelet/1-small.png",
+                "medium": "assets/images/products/bracelet/1-medium.png",
+                "big": "assets/images/products/bracelet/1-big.png"
+            }
+        ],
+        "oldPrice": null,
+        "newPrice": 450,
+        "discount": null,
+        "ratingsCount": 4,
+        "ratingsValue": 300,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue eleifend nulla vel rutrum. Donec tempus metus non erat vehicula, vel hendrerit sem interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+        "availibilityCount": 3,
+        "cartCount": 0,
         "weight": 9750,
         "categoryId": 100
     }
