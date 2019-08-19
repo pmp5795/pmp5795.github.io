@@ -1,13 +1,645 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Keshav Diamonds</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-<script src="runtime-es2015.js" type="module"></script><script src="polyfills-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule></script><script src="polyfills-es5.js" nomodule></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule></script><script src="vendor-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule></script><script src="main-es5.js" nomodule></script></body>
+<!DOCTYPE html>
+ <html lang="zxx">
+
+    <head>
+
+    	<!-- Metas -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="keywords" content="Web designer,Web developer,Graphic designer,Website builder,Website designer,Website creator,Website developer,UX designer,UI Designer,FreeLancer,Php developer,Portfolio,Resume,Full-stack developer,Web developer portfolio" />
+		<meta name="description" content="Web-Developer Portfolio Website" />
+		<meta name="author" content="Parth Patel" />
+
+		<!-- Title  -->
+		<title>Parth Patel</title>
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.png" />
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link rel="stylesheet" href="css/plugins.css" />
+
+        <!-- Core Style Css -->
+        <link rel="stylesheet" href="css/style-light.css" />
+
+    </head>
+
+    <body>
+
+    	<!-- =====================================
+    	==== Start Loading -->
+
+    	<div class="loading">
+            <div class="gooey">
+              <span class="dot"></span>
+              <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+        </div>
+        
+    	<!-- End Loading ====
+    	======================================= -->
+
+       
+    	<!-- =====================================
+    	==== Start Navbar -->
+
+		<nav class="navbar nav-light navbar-expand-lg">
+			<div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img src="img/logo-light.png" alt="logo">          
+            </a>
+
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+			  </button>
+
+			  <!-- navbar links -->
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+			      </li>
+			      <li class="nav-item">
+                    <a class="nav-link" href="#" data-scroll-nav="1">About Me</a>
+                  </li>
+                  <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="2">Knowledge</a>
+			      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-scroll-nav="3">Projects</a>
+                  </li>
+			      <!-- <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="4">Education</a>
+			      </li> -->
+			      <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="5">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+		</nav>
+
+    	<!-- End Navbar ====
+    	======================================= -->
+
+
+    	<!-- =====================================
+    	==== Start Header -->
+
+    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="4" data-background="img/code_background.png" data-stellar-background-ratio="0.5">
+
+    		<div class="container">
+    			<div class="row">
+    				<div class="full-width text-center caption mt-50">
+    					<h2>Welcome!</h2>
+                        <h1 class="cd-headline push">
+                            <span class="blc">I am</span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">Parth Patel</b>
+                                <b>Web Designer</b>
+                                <b>UX/UI Developer</b>
+                            </span>
+                        </h1>
+                        <a href="#0" class="butn butn-bord mt-30" data-scroll-nav="3">
+                            <span>View Work</span>
+                        </a>
+                        <a href="#0" class="butn butn-light mt-30" data-scroll-nav="5">
+                            <span>Hire Me!</span>
+                        </a>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+
+    	<!-- End Header ====
+    	======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start About -->
+
+        <section class="about" data-scroll-index="1">
+            <div class="container">
+                <div class="row">
+
+                     <div class="col-lg-4 valign">
+
+                        <div class="skills">
+
+                            <div class="section-head">
+                                <h4>About Me</h4>
+                            </div>
+
+                            <div class="skill-item mb-30">
+                                <h6>Html/CSS</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-30">
+                                <h6>JavaScript/JQuery</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-30">
+                                <h6>PHP</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-30">
+                                <h6>C#</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-30">
+                                <h6>Java</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-30">
+                                <h6>Database</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h6>MEAN</h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 hero-img bg-img" data-background="img/img1.jpg" alt="Parth Patel Image"></div>
+
+                    <div class="col-lg-4">
+                        <div class="content">
+                            <h6>Who am i</h6>
+                            <h4>Parth Patel.</h4>
+                            <h5>Professional Web Designer</h5>
+                            <p class="mb-10">Hi! I am a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2017. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+                            <p class="mb-40">Also, I'm a multi-talented human. Most of my time I design and build digital products. You can also call me a product designer, experience designer, interaction, UI, UX or by any other market defined function-title. I'm also a multi-disciplinary maker with over 2 years of experiences in wide range of design disciplines, manager, advisor, entrepreneur, front-end developer, music enthusiast, traveler, photographer and more.</p>
+
+                            <div class="social mt-40">
+                                <span>Follow Me :</span>
+                                <a href="https://www.facebook.com/patel.parth.56211497"><i class="icofont icofont-social-facebook"></i></a>
+                                <a href="https://twitter.com/ParthPa59979099/likes"><i class="icofont icofont-social-twitter"></i></a>
+                                <a href="https://www.instagram.com/pmp5795/"><i class="icofont icofont-social-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/parth-patel-8a4157160/"><i class="icofont icofont-brand-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- End About ====
+        ======================================= -->
+
+
+        <!-- =====================================
+        ==== Start Skills 
+        <div class="container px-lg-5">
+            <div class="row mx-lg-n5">
+              <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
+              <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
+            </div>
+          </div>
+
+         End Skills ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start Services -->
+
+        <section class="services section-padding bg-gray" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="section-head text-center col-md-12">
+                        <h4>Knowledge</h4>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-md50">
+                            <i class="icon icofont icofont-responsive"></i>
+                            <h6>Responsive Web Design</h6>
+                            <p>Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-md50">
+                            <i class="icon icofont icofont-cubes"></i>
+                            <h6>MEAN Development</h6>
+                            <p>MEAN is a user-friendly full-stack JavaScript framework ideal for building dynamic websites and applications. It is a is MongoDB, Express.js, AngularJS, and Node.js.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-sm50">
+                            <i class="icon icofont icofont-database"></i>
+                            <h6>Database Design</h6>
+                            <p>Database Design is a collection of processes that facilitate the designing, development, implementation and maintenance of enterprise data management systems.It helps produce  database systems</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <i class="icon icofont icofont-file-psd"></i>
+                            <h6>.NET</h6>
+                            <p>.NET is a free, cross-platform, open source developer platform for building many different types of applications.With .NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, gaming, and IoT.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- End Services ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start Portfolio -->
+
+        <section class="portfolio section-padding" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+
+                    <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                        <h4>Portfolio</h4>
+                    </div>
+
+                    <!-- filter links -->
+                    <div class="filtering text-center col-sm-12">
+                        <span data-filter='*' class="active">All</span>
+                        <span data-filter='.brand'>Responsive Web Design</span>
+                        <span data-filter='.web'>Php</span>
+                        <span data-filter='.graphic'>MEAN</span>
+                        <span data-filter='.d3'>D3</span>
+                        <span data-filter='.data'>Database Connetivity</span>
+                        <span data-filter='.photo'>PhotoShop</span>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- gallery -->
+                    <div class="gallery text-center full-width">
+
+                        <!-- gallery item -->
+                        <div class="items graphic">
+                            <div class="item-img">
+                                <img src="img/portfolio/4.png" alt="Capstone Image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder Icon</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/pmp5795.github.io">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items web">
+                            <div class="item-img">
+                                <img src="img/portfolio/3.png" alt="Php Project Image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder Icon</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/phpProject">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items width2 brand">
+                            <div class="item-img">
+                                <img src="img/portfolio/1.png" alt="Responsive webdesign">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/RedponsiveProject">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items width2 brand">
+                            <div class="item-img">
+                                <img src="img/portfolio/2.png" alt="Responsive web design">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View more</h6>
+                                        <p>Click on Folder</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/RedponsiveProject">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items d3">
+                            <div class="item-img">
+                                <img src="img/portfolio/5.png" alt="D3 Project">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder Icon</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/D3Project">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items data">
+                            <div class="item-img">
+                                <img src="img/portfolio/6.png" alt="Data-connectivity">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder Icon</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/DataConnectivityProject">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="items photo">
+                            <div class="item-img">
+                                <img src="img/portfolio/7.png" alt="Photoshop">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>View More</h6>
+                                        <p>Click on Folder Icon</p>
+                                    </div>
+                                    <a href="https://github.com/pmp5795/PhotoshopProject">
+                                        <i class="icofont icofont-ui-folder"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- End Portfolio ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start Blog -->
+
+        <!-- <section class="blog section-padding bg-gray" data-scroll-index="4">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                        <h4>Education</h4>
+                    </div>
+                    <div class="clearfix full-width"></div>
+
+                    <div class="col-lg-4">
+                        <div class="item mb-md50">
+                            <div class="content">
+                                    <div class="post-img position-re o-hidden">
+                                            <h6>Scholling 2000-2012</h6>
+                                        </div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item mb-md50">
+                            <div class="post-img position-re o-hidden">
+                                <img src="img/blog/03.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h5><a href="#0" class="undecro">How to improve your business ?</a></h5>
+                                <span class="data">
+                                    <a href="#0" class="undecro">ThemeForest</a>
+                                    <a href="#0" class="undecro md-30">March 21 - 2018</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="post-img position-re o-hidden">
+                                <img src="img/blog/02.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span class="data">
+                                    <a href="#0" class="undecro">Lifestyle</a>
+                                    <a href="#0" class="undecro">March 21 - 2018</a>
+                                </span>
+                                <h5><a href="#0" class="undecro">Style workspaces for your inspiration.</a></h5>
+
+                                <a href="#0" class="more mt-30">
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <!-- End Blog ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start Contact -->
+
+        <section class="contact section-padding position-re" data-scroll-index="5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                        <h4>Contact Me</h4>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="info mb-md50">
+                            <div class="item">
+                                <div class="cont">
+                                    <h6>Phone : </h6>
+                                    <p>+1 226 978 9959</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="cont">
+                                    <h6>Address : </h6>
+                                    <p>104, 71 Vanier Drive<br> Kitchener ON</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="cont">
+                                    <h6>Email : </h6>
+                                    <p>pmp5795@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-7">
+
+                        <form class="form" id="contact-form" method="post" action="contact.php">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                    </div>
+
+                                </div>                             
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            
+            <svg class="wave gray" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717" enable-background="new 0 0 1920 81.717" xml:space="preserve"><path style="" d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z"></path></svg>
+        </section>
+
+        <!-- End Contact ====
+        ======================================= -->
+
+
+        <!-- =====================================
+        ==== Start Footer -->
+
+        <footer class="text-center bg-gray">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="logo" href="#">
+                    <img src="img/logo-dark.png" alt="logo">          
+                </a>
+                
+                <div class="social">
+                    <a href="https://www.facebook.com/patel.parth.56211497"><i class="icofont icofont-social-facebook"></i></a>
+                    <a href="https://twitter.com/ParthPa59979099/likes"><i class="icofont icofont-social-twitter"></i></a>
+                    <a href="https://www.instagram.com/pmp5795/"><i class="icofont icofont-social-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/parth-patel-8a4157160/"><i class="icofont icofont-brand-linkedin"></i></a>
+                </div>
+
+                <p>&copy; 2019 Parth Patel. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- End Footer ====
+        ======================================= -->
+
+
+
+
+       
+        <!-- jQuery -->
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+        <!-- popper.min -->
+        <script src="js/popper.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- scrollIt -->
+        <script src="js/scrollIt.min.js"></script>
+
+        <!-- animated.headline -->
+        <script src="js/animated.headline.js"></script>
+
+        <!-- jquery.magnific-popup js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+
+        <!-- stellar js -->
+        <script src="js/jquery.stellar.min.js"></script>
+
+        <!-- isotope.pkgd.min js -->
+        <script src="js/isotope.pkgd.min.js"></script>
+
+        <!-- validator js -->
+        <script src="js/validator.js"></script>
+
+        <!-- custom scripts -->
+        <script src="js/scripts.js"></script>
+
+    </body>
 </html>
